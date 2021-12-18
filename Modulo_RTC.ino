@@ -11,7 +11,7 @@ void setup() {
         Serial.println("RTC NAO INICIALIZADO");
         while(1);
     }
-    rtc.adjust(DateTime(2021, 12, 11, 20, 10, 00));
+    //rtc.adjust(DateTime(2021, 12, 11, 20, 10, 00));
     delay(100);
 }
 
